@@ -83,7 +83,7 @@ void aplicarHabilidade(int tabuleiro[TAM_TAB][TAM_TAB], int habilidade[TAM_HAB][
 
 // Função para exibir o tabuleiro com legendas
 void exibirTabuleiro(int tabuleiro[TAM_TAB][TAM_TAB]) {
-    printf("Legenda: ~ = Água | N = Navio | * = Área de habilidade\n\n");
+    printf("Legenda: ~ = Agua | N = Navio | * = Area de habilidade\n\n");
     for (int i = 0; i < TAM_TAB; i++) {
         for (int j = 0; j < TAM_TAB; j++) {
             if (tabuleiro[i][j] == 0)
